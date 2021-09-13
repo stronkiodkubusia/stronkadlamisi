@@ -5,19 +5,37 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <script src="jquery-2.1.4.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript">
+    $("div.formSentMsg").delay(8000).fadeOut(6000);
+  </script>
+
+
+  <div class="misia">
+    <center>Kocham misie <3</center>
+  </div>
+
+
+  <meta charset="UTF-8">
+  <title>Loading Square</title>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   </head>
   <body>
-    <div class="content">
+    <div class="content"></div>
       <div class="misia">Kocham Cię misia <3</div>
-    </div>
 
-    <div class="ladowanie2">
-      <span class="ladowanie"><span class="ladowanie1"></span></span>
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
     </div>
 
     <script>
         $(window).on("load",function(){
-          $(".ladowanie2").fadeOut("slow");
+          $(".loader-wrapper").fadeOut("slow");
         });
     </script>
   </body>
